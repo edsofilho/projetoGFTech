@@ -11,5 +11,5 @@ app = Flask(__name__, template_folder='views')
 routes.init_app(app)
 
 if __name__ == '__main__':
-    #Rodando o servidor no localhost, porta 5000
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    #Rodando o servidor no localhost, porta 4000
+    app.run(host='0.0.0.0', port=4000, debug=True)
